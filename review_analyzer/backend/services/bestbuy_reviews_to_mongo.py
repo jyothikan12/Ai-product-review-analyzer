@@ -12,8 +12,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BESTBUY_API_KEY = os.getenv("BESTBUY_API_KEY")
-#MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-MONGO_URI = "mongodb+srv://boddusuhas9:suhas@cluster0.3q9awms.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = os.getenv("MONGO_URI")
+
 
 # ✅ Unified DB + Collection (Same as eBay + NLP Utils)
 MONGO_DB = "review_system"
