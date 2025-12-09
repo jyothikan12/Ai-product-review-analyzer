@@ -5,6 +5,12 @@ import requests
 from urllib.parse import urlparse, parse_qs
 from pymongo import MongoClient, errors
 from dotenv import load_dotenv
+import os
+
+BESTBUY_API_KEY = os.getenv("BESTBUY_API_KEY")
+SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY")
+MONGO_URI = os.getenv("MONGO_URI")
+
 
 # -----------------------------------
 # 1️⃣ Setup

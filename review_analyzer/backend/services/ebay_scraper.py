@@ -5,6 +5,12 @@ import re
 import time
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
+import os
+
+BESTBUY_API_KEY = os.getenv("BESTBUY_API_KEY")
+SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY")
+MONGO_URI = os.getenv("MONGO_URI")
+
 
 # ========== CONFIG ==========
 SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY") # Replace with your key
