@@ -15,10 +15,9 @@ from transformers import pipeline
 load_dotenv()
 
 # MongoDB connection
-MONGO_URI = os.getenv(
-    "MONGO_URI",
-    "mongodb+srv://boddusuhas9:suhas@cluster0.3q9awms.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Cluster0"
-)
+import os
+MONGO_URI = os.getenv("MONGO_URI")
+
 
 client = MongoClient(MONGO_URI)
 raw_db = client["review_system"]
