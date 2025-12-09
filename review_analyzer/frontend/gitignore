@@ -1,0 +1,49 @@
+# ---------------------------
+# NODE / FRONTEND IGNORE
+# ---------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------------------------
+# PYTHON / BACKEND IGNORE
+# ---------------------------
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# SECRET ENV FILES
+# ---------------------------
+.env
+backend/.env
+frontend/.env
+
+# ---------------------------
+# EDITOR / OS FILES
+# ---------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------------------------
+# BUILD ARTIFACTS
+# ---------------------------
+*.egg-info/
+.Python
+.envrc
+coverage/
