@@ -66,40 +66,6 @@ It extracts **sentiment**, **aspect-level insights**, and **AI-generated summari
 
 ## 🔗 Supported URL Formats
 - **eBay:**  
-# 🧠 AI Review Insight Engine  
-### Sentiment, Emotion & Aspect Analysis for E-Commerce Reviews
-
-AI Review Insight Engine is a full-stack NLP application that analyzes and summarizes customer reviews from **eBay** and **BestBuy**.  
-It extracts **sentiment**, **aspect-level insights**, and **AI-generated summaries**, presenting them through an interactive web dashboard.
-
----
-
-## 🚀 Features
-- 🔍 Scrapes product reviews from **eBay** and **BestBuy**
-- 😊 Sentiment classification (Positive / Neutral / Negative)
-- 🧩 Aspect-based analysis (Price, Quality, Delivery, Packaging, Usability)
-- 🤖 AI-generated review summaries using Transformer models
-- 📊 Interactive visualizations (Pie & Bar charts)
-- ⚔️ Side-by-side product comparison
-- 💾 MongoDB-based caching for fast repeated analysis
-
----
-
-## 🏗️ System Architecture
-**User → Frontend (React) → Backend (Flask) → NLP Engine → MongoDB → Visualization Dashboard**
-
-- **Frontend:** React (Vite), TypeScript, Recharts, TailwindCSS  
-- **Backend:** Python, Flask, REST APIs  
-- **NLP:** VADER (Sentiment), Regex-based Aspect Extraction, Transformers (Summarization)  
-- **Database:** MongoDB Atlas  
-- **Scraping:**  
-  - eBay → ScraperAPI + BeautifulSoup  
-  - BestBuy → Official BestBuy Developer API (SKU-based)
-
----
-
-## 🔗 Supported URL Formats
-- **eBay:**  
 https://www.ebay.com/itm/
 <product_id>
 - **BestBuy:**  
